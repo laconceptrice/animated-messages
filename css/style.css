@@ -1,0 +1,81 @@
+body
+{
+  width: 100%;
+  margin: 0;
+  padding: 15px 0 0 0;
+  background-image: url("../images/tile_stripes_gray.png");
+}
+.container
+{
+  width: 100%;
+  margin: 0 auto;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+a
+{
+  color: inherit;
+}
+a:hover
+{
+  color: red;
+  transition: color 0.2s;
+}
+
+
+#hellofriend
+{
+  width: 90%;
+  margin: 15px auto 0 auto;
+  padding: 15px;
+  text-align: left;
+}
+#characters
+{
+  width: 90%;
+  margin: 15px auto 0 auto;
+  padding: 50px 15px;
+  background: white;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  font-family: serif;
+}
+#characters span
+{
+  display: inline-block;
+  color: red;
+  margin: 20px;
+  width: 20px;
+  line-height: 0.7rem;
+}
+#phrase
+{
+  width: 90%;
+  margin: 15px auto 0 auto;
+  padding: 100px 15px;
+  background: white;
+  font-family: serif;
+}
+#phrase div
+{
+  display: inline-block;
+  width: 10px;
+}
+#contact
+{
+  width: 90%;
+  margin: 15px auto 0 auto;
+  padding: 15px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+
+#sendmessage
+{
+  display: none;
+}
